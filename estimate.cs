@@ -4,6 +4,8 @@ namespace assignment_one
 {
     class estimate
     {
+        //instance variable declaration
+        //every created instance will be assigned unique values for the instance variables within the class
         public string dogOwner { get; set; }
         public string dogName { get; set; }
         public int daysOfCare { get; set; }
@@ -12,6 +14,16 @@ namespace assignment_one
         public double overnightStayN = 75.00;
         public double overnightStayA = 169.00;
         public double overnightStayC = 112.00;
+
+
+
+        public estimate(string dogOwner, string dogName, int daysOfCare, string serviceCode)
+        {
+            this.dogOwner = dogOwner;
+            this.dogName = dogName;
+            this.daysOfCare = daysOfCare;
+            this.serviceCode = serviceCode;
+        }
 
         
         
