@@ -23,6 +23,20 @@ namespace assignment_one
         public double overnightStayA = 169.00;
         public double overnightStayC = 112.00;
 
+        public void getOwnerName()
+        {
+            Console.WriteLine("Enter your first and last name:");
+            Console.ReadLine();
+        }
+        
+        public void getDaysOfCare()
+        {
+            Console.WriteLine("Enter the amount of days your dog will be staying:");
+            Console.ReadLine();
+        }
+
+
+
     }
 
 }
